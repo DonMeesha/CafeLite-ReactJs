@@ -1,0 +1,33 @@
+.process{
+  margin-top: -9rem;
+  padding: 4rem;
+  background: var(--first-color);
+  display:block;
+}
+
+.count-process{
+  display: flex;
+  float: right;
+  gap: 3rem;
+  margin-right: 5rem;
+}
+.count-process>div>span{
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--title-color);
+}
+
+.coffee-made{
+  display: flex;
+  gap: 5rem;
+  margin-left:18%;
+  margin-top: 10rem;
+  text-align: center;
+  justify-items: center;
+}
+
+.coffee-made>div>img{
+  width: 200px;
+  height: 250px;
+ 
+}

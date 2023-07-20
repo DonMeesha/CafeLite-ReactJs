@@ -1,0 +1,23 @@
+.book{
+    padding: 4rem;
+    display: flex;
+    gap: 2rem;
+    background: var(--container-color);
+    color: var(--first-color);
+}
+.book__left{
+    flex: 1 1;
+    display: grid;
+    grid-template-columns: repeat(2);
+    gap: 1rem;   
+}
+.book__l__content{
+    letter-spacing: 2.5px;
+    font-size: var(--h3-font-size);
+}
+.book__right{
+    flex: 1 1;
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}

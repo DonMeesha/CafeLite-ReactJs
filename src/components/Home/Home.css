@@ -1,0 +1,27 @@
+.home{
+    background-color: var(--bg-color);
+    
+}
+.main__title{
+    display: flex;
+    font-size: 24rem;
+    color: hsl(25, 76%, 71%);
+}
+.home__description{
+    width: 20rem;
+}
+.home__btns{
+    display: flex;
+    column-gap: 2rem;
+    color: var(--first-color-light);
+}
+.btn{
+    border: 2px solid var(--first-color);
+    color: var(--first-color);
+    background: var(--first-color-light);
+    padding: 0.5rem 1rem;
+
+}
+.btn:hover{
+    background-color: var(--container-color);
+}
